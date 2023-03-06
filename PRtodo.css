@@ -41,3 +41,20 @@ li:hover{
 ol #edit,#delete{
     float: right;
 }
+@media (max-width:1000px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media (max-width:800px) {
+    .container{
+        width: 65%;
+    }
+}
+
+@media (max-width:700px) {
+    .container{
+        width: 80%;
+    }
+}
